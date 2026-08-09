@@ -1,0 +1,14 @@
+{
+  "decided_at": "2026-08-09T20:02:00Z",
+  "decision": "promote",
+  "decision_id": "promotion-synthetic",
+  "deployment_authority": false,
+  "policy_id": "promotion.synthetic",
+  "policy_version": "sha256:67f6b83562132bc7e27164172c3bc4560b0c18994f27e17b456affff2a8fdd44",
+  "promotion_digest": "sha256:6e40e1a04d6884db194e2f40f1fdc3b2c3dcef5137092e7dc4de2b6154a4da2e",
+  "reasons": [
+    "all declared promotion prerequisites satisfied; lifecycle eligibility only"
+  ],
+  "request_digest": "sha256:641ac7d2df3ab0a336b0e0e23639e8edf4720a6c540f14f59ac1db89acd1c9f3",
+  "schema_version": "neuruh.promotion-gate.v0.1"
+}

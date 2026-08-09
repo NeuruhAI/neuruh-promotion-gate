@@ -1,0 +1,1 @@
+Public: generic promotion policy/request/decision semantics, deterministic gate, CLI, synthetic fixtures. Private: production thresholds, release policy, model selection, production stage routing, customer data, credentials, deployment topology.

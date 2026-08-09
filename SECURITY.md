@@ -1,0 +1,1 @@
+The gate evaluates declared evidence only. It does not validate human identity, execute rollback, deploy changes, or modify models/policies. The decision artifact hard-codes deployment_authority=false.

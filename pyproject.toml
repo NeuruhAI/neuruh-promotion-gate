@@ -1,0 +1,13 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+[project]
+name="neuruh-promotion-gate"
+version="0.1.0a0"
+description="Fail-closed lifecycle promotion eligibility gate that never grants deployment authority."
+requires-python=">=3.11"
+license={text="Apache-2.0"}
+[project.scripts]
+neuruh-promotion-gate="neuruh_promotion_gate.cli:main"
+[tool.setuptools.packages.find]
+where=["src"]
