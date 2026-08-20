@@ -1,13 +1,23 @@
 [build-system]
-requires=["setuptools>=68"]
-build-backend="setuptools.build_meta"
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name="neuruh-promotion-gate"
-version="0.1.0a0"
-description="Fail-closed lifecycle promotion eligibility gate that never grants deployment authority."
-requires-python=">=3.11"
-license={text="Apache-2.0"}
+name = "neuruh-promotion-gate"
+version = "0.1.1a0"
+description = "Fail-closed lifecycle promotion eligibility gate that never grants deployment authority."
+requires-python = ">=3.11"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Jeramie Hicks / Neuruh"}]
+
 [project.scripts]
 neuruh-promotion-gate="neuruh_promotion_gate.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/NeuruhAI/neuruh-promotion-gate"
+Repository = "https://github.com/NeuruhAI/neuruh-promotion-gate"
+
 [tool.setuptools.packages.find]
-where=["src"]
+where = ["src"]
