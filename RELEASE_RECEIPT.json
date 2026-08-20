@@ -6,7 +6,7 @@
   "package_version": "0.1.1a0",
   "status": "APPROVED_FOR_PUBLIC_RELEASE",
   "qualified_at": "2026-08-20T06:51:36.853005+00:00",
-  "tested_source_commit": "PENDING_COMMIT",
+  "tested_source_commit": "ce391dba2b97a1e611762aac5e169bebdd2170ff",
   "qualification": {
     "tests": {
       "status": "PASS",
