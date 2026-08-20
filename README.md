@@ -1,5 +1,7 @@
 # Neuruh Promotion Gate
 
+[![ci](https://github.com/NeuruhAI/neuruh-promotion-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/NeuruhAI/neuruh-promotion-gate/actions/workflows/ci.yml)
+
 Public Commons Release 020. A deterministic, fail-closed lifecycle eligibility gate for candidate learning updates.
 
 The gate evaluates a content-bound proposal against declared promotion prerequisites such as:
